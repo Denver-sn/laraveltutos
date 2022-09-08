@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', 'Hello City')
+@section('title', 'Hello City ' . env("APP_NAME"))
 
 @section('content')
 <h1>Hello from Galsen</h1>
